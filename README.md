@@ -18,6 +18,9 @@ source program, and compiles it into my assembly language, which can be ran with
 that translates the assembly code into the machine code of the system, with common features
 such as mnemonics and labels.
 
+
+![image](Images/Shape%20of%20Toolchain.png)
+
 ## CPU
 The original SAP-1 is an interesting project and a great resource for learning the basics of
 the functionality of a CPU, however it is not very useful. There are no jump instructions, you
@@ -28,6 +31,8 @@ Each component of the CPU itself uses building blocks to achieve its functionali
 building blocks are built into the Digital software purely for convenience for the end user, it is
 possible to reproduce the functionality of these building blocks from simple logic gates such as
 AND, OR, and NOT, or using off the shelf IC chips such as Malvino proposed (Lee, 2007).
+
+![image](Images/CPU%20diagram.png)
 
 ## Assembler
 An assembler is a piece of software that translates assembly code to the machine language of a
@@ -41,6 +46,8 @@ languages use labels to solve this issue, where a label is not strictly translat
 language instructions, but instead is turned into a memory address by the assembler (Leventhal,
 1979), so the programmer does not need to be concerned with the address of the jump destination,
 but rather only the location within the code.
+
+![image](Images/Assembly%20Table.png)
 
 ## Compiler
 An assembly language is one where the instructions match one-to-one with the generated assembly.
@@ -62,3 +69,5 @@ The high-level language is called JWhile, and is based on the imperative paradig
 inspired by C. This means it has the typical control flow statements, such as ‘while’, ‘if’, etc, and
 uses curly braces to indicate scope and blocks. The only datatype in my language are unsigned
 integers, however one-dimensional arrays can also be defined.
+
+![image](Images/SourcecodeToTree.png)
