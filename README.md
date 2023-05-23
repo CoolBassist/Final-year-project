@@ -1,5 +1,5 @@
 # Final-year-project
-My final year project, where I designed and simulated an 8-bit CPU, with an assembler and compiler.
+My final year project, where I designed and simulated an 8-bit CPU, with an assembler and compiler. I have also added an emulator for my CPU, but this was not part of my final year project.
 
 The below excerpts are taken from my report.
 
