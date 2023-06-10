@@ -17,7 +17,7 @@ int main(int argc, char** argv) {
     bool debug = false;
     int memory_view = 10;
 
-    if(argc >= 2){
+    if(argc > 2){
         debug = true;
         memory_view = atoi(argv[2]);
     }
