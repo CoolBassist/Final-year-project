@@ -1,0 +1,12 @@
+for(i := 2; i < 255; i := i+1){
+	isprime := 1;
+	for(j := 2; j < i; j := j+1){
+		if(i % j = 0){
+			isprime := 0;
+		}
+	}
+
+	if(isprime = 1){
+		print(i);
+	}
+}
